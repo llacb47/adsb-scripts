@@ -3,8 +3,8 @@
 trap "exit" INT TERM
 trap "kill 0" EXIT
 
-TEST1="google.com"
-TEST2="akamai.com"
+TEST1="10.0.0.1"
+TEST2="10.0.0.209"
 FAIL="no"
 
 while sleep 300
