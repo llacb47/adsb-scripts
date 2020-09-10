@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repo="https://github.com/wiedehopf/adsb-scripts"
+repo="https://github.com/llacb47/adsb-scripts"
 ipath=/usr/local/share/adsb-scripts
 
 if ! command -v git &>/dev/null
