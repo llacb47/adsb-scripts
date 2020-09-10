@@ -7,7 +7,7 @@ TEST1="10.0.0.1"
 TEST2="10.0.0.209"
 FAIL="no"
 
-while sleep 300
+while sleep 180
 do
 	if ping $TEST1 -c1 -w5 >/dev/null || ping $TEST2 -c1 -w5 >/dev/null
 	then
